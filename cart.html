@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | E-comm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Head Section -->
+    <header class="heading d-flex align-center fixed top-0 left-0 ">
+        <div class="heading-title-icon d-flex align-center grow-shrink-basis">
+            <h1 class="heading-title">
+                <a class="link" href="/">E-comm Shop</a>
+            </h1>
+        </div>
+        <div class="search-box-container relative">
+            <input class="search-box-input" placeholder="search-box">
+            <span class="material-icons-outlined absolute top-0 left-0">search</span>
+        </div>
+        <!-- Navbar Section -->
+        <nav class="navigation">
+            <ul class="list-non-bullet d-flex align-center gap">
+                <li class="list-item-inline">
+                    <a href="/" class="link cursor"><span class="nav-icon material-icons-outlined">
+                        favorite_border
+                    </span></a>
+                </li>
+                <li class="list-item-inline">
+                    <a href="/" class="link cursor"><span class="material-icons-outlined">
+                        shopping_cart
+                    </span></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main Section -->
+    <main class="main">
+        <h1 class="heading-2">Your Cart</h1>
+        <main class="d-flex gap justify-center">
+            <div class=" d-flex direction-column wrap gap" id="cart"></div>
+            <div class="final-price d-flex direction-column gap shadow padding-all-16">
+                <div>Price Details</div>
+                <div class="d-flex align-center justify-space-between">
+                    <span>Price (<span class="item-count"></span>) Items</span>
+                    <span>Rs. <span class="product-price"></span></span>
+                </div>
+                <div class="d-flex align-center justify-space-between">
+                    <span>Discount</span>
+                    <span>Rs. <span id="discount"></span></span>
+                </div>
+                <div class="d-flex align-center justify-space-between">
+                    <span>Delivery Charge</span>
+                    <span>Rs. 100</span>
+                </div>
+                <div class="d-flex align-center justify-space-between">
+                    <span>Total Amount</span>
+                    <span>Rs. <span class="amount"></span></span>
+                </div>
+                <div>You will save Rs. <span class="message"></span> on this order</div>
+                <button type="button" class="button btn-primary cursor">Place Order</button>
+            </div>
+        </main>
+    </main>
+    <script type="module" src="./cart.js"></script>
+</body>
+</html>

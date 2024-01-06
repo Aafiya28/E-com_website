@@ -1,0 +1,175 @@
+@import url("https://uilight.netlify.app/main.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+
+
+.heading {
+    background-color: var(--background-color);
+    padding: 1rem 3rem;
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--accent-color);
+    width: 100vw;
+    z-index: 1;
+}
+
+.search-box-input {
+    width: 15rem;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+    background-color: transparent;
+}
+
+.search-box-input:focus {
+    outline: none;
+}
+
+.nav-icon {
+    font-size: 2rem;
+}
+
+.products-page {
+    padding: 8rem 3rem;
+}
+
+.card-vertical {
+    width: 16rem;
+}
+
+.card-image-container {
+    width: 100%;
+    height: 240px;
+    padding-top:3rem ;
+}
+
+.card-image {
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-details {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.card-description {
+    padding-left:8px;
+}
+
+.card-des {
+    font-family: sans-serif;
+    font: 15px solid black;
+}
+
+.card-price {
+    gap: 4px;
+}
+
+.price-strike-through,
+.discount {
+    font-size: 14px;
+}
+
+.star {
+    color: orange;
+}
+
+.cta-btn{
+    padding: 10px;
+    padding-left: 2px;
+}
+
+.products-page {
+    flex-direction:row;
+}
+
+.card-horizontal {
+    width: 650px;
+    margin-top: 30px;
+
+}
+
+.card-hori-image-container {
+    padding: 5px;
+}
+
+.cta-hori-btn {
+    justify-content: left;
+    align-items: center;
+}
+
+.gap-sm {
+    gap: 8px;
+}
+
+.main {
+    padding-top: 8rem;
+}
+
+.heading-2 {
+    margin-left: 3rem;
+}
+
+.final-price {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 30rem;
+    height: 100%;
+    background-color: var(--background-color);
+    align-self: flex-start;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.side-bar {
+    width: 20rem;
+    position: fixed;
+}
+
+.product-container {
+    margin-left: 20rem;
+}
+
+.filter-container {
+    padding: 1rem 0rem;
+}
+
+.heading-3 {
+    padding: 1rem;
+}
+.label {
+    font-size: 1rem;
+}
+
+.radio {
+    width: 1rem;
+    height: 1rem;
+}
+/* .brand-details {
+    text-align: center;
+    padding-top: 2rem;
+    letter-spacing: 2px;
+}
+
+
+.icon-large {
+    width: 7rem;
+    height: 7rem;
+}
+
+.about-brand {
+    width: 60ch;
+    margin: auto;
+}
+
+.footer {
+    padding-top: 8rem;
+}
+
+.source-image {
+    width: 1.5rem;
+    height: 1.5rem;
+} */
